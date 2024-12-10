@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+    color: #008b8b;
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #008b8b;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #008b8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #005f5f;
+}
+.lista-compras {
+    border: 2px solid #008b8b;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    min-height: 100px;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.lista-compras p {
+    margin: 5px 0;
+}
